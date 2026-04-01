@@ -1,0 +1,3 @@
+external-root-files/postgresql-17.5-3-windows-x64.exe filter=lfs diff=lfs merge=lfs -text
+external-root-files/Vimarsh[[:space:]]Excel/postgresql-17.5-3-windows-x64.exe filter=lfs diff=lfs merge=lfs -text
+external-root-files/Vimarsh[[:space:]]Excel/psqlodbc-setup.exe filter=lfs diff=lfs merge=lfs -text

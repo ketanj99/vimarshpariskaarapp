@@ -1,0 +1,72 @@
+===============================================
+STOCK UPDATE FORM - SETUP INSTRUCTIONS
+===============================================
+
+IMPORTANT: Form ko compile karne ke liye, aapko form designer me controls create karne honge.
+
+STEPS:
+
+1. Excel me VBA Editor open karein:
+   - Press: Alt + F11
+
+2. Project Explorer me "StockUpdateForm" dhoondhein:
+   - Left side me "VBAProject" ke neeche
+   - "Forms" folder me "StockUpdateForm" dikhega
+
+3. StockUpdateForm par DOUBLE-CLICK karein:
+   - Form designer open hoga
+
+4. Toolbox se controls add karein:
+   (Agar Toolbox nahi dikh raha, to View menu -> Toolbox)
+
+   a) LISTBOX add karein:
+      - Toolbox se ListBox icon click karein
+      - Form par click karein (kisi bhi jagah)
+      - Properties window me (F4) Name = "lstNotInStockBooks" set karein
+
+   b) TEXTBOX add karein:
+      - Toolbox se TextBox icon click karein
+      - Form par click karein
+      - Properties me Name = "txtPNo" set karein
+
+   c) COMMANDBUTTON (Update) add karein:
+      - Toolbox se CommandButton icon click karein
+      - Form par click karein
+      - Properties me:
+        Name = "btnUpdate"
+        Caption = "Update"
+
+   d) COMMANDBUTTON (Close) add karein:
+      - Toolbox se CommandButton icon click karein
+      - Form par click karein
+      - Properties me:
+        Name = "btnClose"
+        Caption = "Close"
+
+   e) LABEL add karein:
+      - Toolbox se Label icon click karein
+      - Form par click karein
+      - Properties me Name = "lblStatus" set karein
+
+5. Form save karein:
+   - Ctrl + S press karein
+   - Ya File -> Save
+
+6. Test karein:
+   - VBA Editor me Immediate Window (Ctrl + G)
+   - Type: StockUpdateForm.Show
+   - Enter press karein
+
+NOTES:
+- Controls ka size/position matter nahi karta
+- Code automatically unhe resize/reposition karega
+- Controls chhote ya hidden bhi ho sakte hain
+- IMPORTANT: Control names EXACT match hone chahiye:
+  * lstNotInStockBooks (case-sensitive)
+  * txtPNo
+  * btnUpdate
+  * btnClose
+  * lblStatus
+
+===============================================
+
